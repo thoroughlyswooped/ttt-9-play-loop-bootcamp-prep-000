@@ -36,6 +36,7 @@ def turn(board)
 end
 
 def play(board)
+  count = 0;
   until (count == 9)
     turn(board);
     count += 1;
